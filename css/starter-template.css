@@ -16,6 +16,65 @@ body {
 h2{
   font-size: 25px;
 }
+
+button.launch {
+    background-color: #181F4E;
+    border: none;
+    height: 40px;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+button.launch:hover {
+    cursor: pointer;
+    background-color: cyan;
+}
+
+button.launch {
+    background-color: #F9A300;
+    border: none;
+    height: 40px;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+button.launch:hover {
+    cursor: pointer;
+    background-color: cyan;
+    border-radius: 10px;
+}
+
+button.change {
+    background-color: cyan;
+    border: none;
+    height: 40px;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+button.change:hover {
+    cursor: pointer;
+    background-color: #181F4E;
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
+button:focus {outline:0;}
 .actionATag {
 
     border: none;
